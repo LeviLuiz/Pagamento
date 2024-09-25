@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pagamentos</title>
+</head>
+
+<body>
+    <div class="logo">
+        <a href="https://www.instagram.com/origemcaipira" target="_blank"><img src="./images/download.jpg" alt="Logo Sítio Origem Caipira"></a>
+        <h1>Sítio Origem Caipira</h1>
+    </div>
+    <div class="tudo">
+        <div id="produtos">
+            <div class="texto">Item || Preço ||||||||| Produto</div>
+        </div>
+        <div class="lateral">
+
+            <div class="dados">
+                <div class="data">
+                    <input type="text" id="nome" placeholder="Nome"> <button id="desistir"
+                        onclick="desistir()">Desistência</button>
+                    <input type="text" id="CPF" placeholder="CPF"> <button id="cancelar"
+                        onclick="cancelar()">Cancelar</button><br><br>
+                    <button id="pagar" onclick="pagar()">Pagar</button>
+                </div>
+            </div>
+
+            <div class="preço">
+                <p>Total</p>
+                <p id="total">R$</p>
+            </div>
+
+            <div class="codigo">
+                <h2>Codigo:</h2>
+                <input type="number" id="codigo" placeholder="Digite o Código">
+                <button id="botao" onclick="procurar()">Procurar</button>
+                <p id="produto">Produto</p>
+                <p id="preço">R$</p>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        Feito por Sítio Origem Caipira
+    </footer>
+
+</body>
+<script src="script.js"></script>
+
+</html>
