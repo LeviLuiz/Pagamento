@@ -177,7 +177,7 @@ h6 {
     width: 200px;
     height: 60px;
     right: 40px;
-    top: 130px;
+    top: 150px;
     position: absolute;
     border-radius: 20px;
     background-color: rgb(76, 202, 76);
@@ -185,6 +185,6 @@ h6 {
 
 #conta {
     position: absolute;
-    top: 145px;
+    top: 155px;
     right: 110px;
 }
