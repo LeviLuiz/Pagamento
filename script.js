@@ -5,8 +5,10 @@ todo = 0
 i = 1
 
 document.addEventListener('keydown', function(event) {
-    //console.log(`Tecla pressionada: ${event.key}, Código: ${event.code}`);
-
+    
+    if (event.key === 'Delete') {
+        desistir()
+    }
 
     if (event.key === 'Enter') {
         procurar()
