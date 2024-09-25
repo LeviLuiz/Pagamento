@@ -4,6 +4,15 @@ preço = [5.00, 20.00, 50.00]
 todo = 0
 i = 1
 
+document.addEventListener('keydown', function(event) {
+    //console.log(`Tecla pressionada: ${event.key}, Código: ${event.code}`);
+
+
+    if (event.key === 'Enter') {
+        procurar()
+    }
+});
+
 function desistir() {
     // Seleciona a lista de spans
     const lista = document.getElementById('produtos');
